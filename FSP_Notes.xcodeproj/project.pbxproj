@@ -14,6 +14,23 @@
 		279D234A1FF9B2F0004D4E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D23481FF9B2F0004D4E5A /* LaunchScreen.storyboard */; };
 		279D23551FF9B2F1004D4E5A /* FSP_NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D23541FF9B2F1004D4E5A /* FSP_NotesTests.swift */; };
 		279D23601FF9B2F1004D4E5A /* FSP_NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D235F1FF9B2F1004D4E5A /* FSP_NotesUITests.swift */; };
+		27D5C31322404E3E0066F9E4 /* NotesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5C31222404E3E0066F9E4 /* NotesRepository.swift */; };
+		27E549B0223EEACF00772FD2 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E549AF223EEACF00772FD2 /* NewNoteViewController.swift */; };
+		27E549B3223EF3FF00772FD2 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E549B2223EF3FF00772FD2 /* Note.swift */; };
+		27E549B7223F08BA00772FD2 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E549B6223F08BA00772FD2 /* Database.swift */; };
+		27E549B9223F1D0D00772FD2 /* APP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E549B8223F1D0D00772FD2 /* APP.swift */; };
+		27EC1F9B22495C8C0042F55F /* EditNoteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC1F9A22495C8C0042F55F /* EditNoteDetailsViewController.swift */; };
+		27ED404722446F1600EE9F97 /* EditNoteInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED404622446F1600EE9F97 /* EditNoteInfoViewController.swift */; };
+		27ED86A82246A983009CEA0B /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED86A72246A982009CEA0B /* UIImageExtensions.swift */; };
+		27EE0183224BFA9100C4250D /* AllCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE0182224BFA9100C4250D /* AllCategoriesViewController.swift */; };
+		27EE1FAF2247F00F002F0B11 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE1FAE2247F00F002F0B11 /* NSAttributedStringExtensions.swift */; };
+		27EE1FB12247F7F9002F0B11 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE1FB02247F7F9002F0B11 /* StringExtensions.swift */; };
+		27EE1FB822487EF0002F0B11 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE1FB722487EF0002F0B11 /* CategoryViewController.swift */; };
+		27EE1FBA224883CF002F0B11 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE1FB9224883CF002F0B11 /* Category.swift */; };
+		27EE1FBC224886FF002F0B11 /* CategoriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE1FBB224886FF002F0B11 /* CategoriesRepository.swift */; };
+		27EF1DB722474D3B00694CBC /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF1DB622474D3B00694CBC /* UITextViewExtensions.swift */; };
+		27EF6DAC2249D6CA006DDE04 /* MKMapViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF6DAB2249D6CA006DDE04 /* MKMapViewExtensions.swift */; };
+		27F1F3982241A69300CA3D36 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1F3972241A69300CA3D36 /* DateExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +64,23 @@
 		279D235B1FF9B2F1004D4E5A /* FSP_NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSP_NotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279D235F1FF9B2F1004D4E5A /* FSP_NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSP_NotesUITests.swift; sourceTree = "<group>"; };
 		279D23611FF9B2F1004D4E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D5C31222404E3E0066F9E4 /* NotesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesRepository.swift; sourceTree = "<group>"; };
+		27E549AF223EEACF00772FD2 /* NewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		27E549B2223EF3FF00772FD2 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		27E549B6223F08BA00772FD2 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		27E549B8223F1D0D00772FD2 /* APP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APP.swift; sourceTree = "<group>"; };
+		27EC1F9A22495C8C0042F55F /* EditNoteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteDetailsViewController.swift; sourceTree = "<group>"; };
+		27ED404622446F1600EE9F97 /* EditNoteInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteInfoViewController.swift; sourceTree = "<group>"; };
+		27ED86A72246A982009CEA0B /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		27EE0182224BFA9100C4250D /* AllCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesViewController.swift; sourceTree = "<group>"; };
+		27EE1FAE2247F00F002F0B11 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
+		27EE1FB02247F7F9002F0B11 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		27EE1FB722487EF0002F0B11 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		27EE1FB9224883CF002F0B11 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		27EE1FBB224886FF002F0B11 /* CategoriesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRepository.swift; sourceTree = "<group>"; };
+		27EF1DB622474D3B00694CBC /* UITextViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtensions.swift; sourceTree = "<group>"; };
+		27EF6DAB2249D6CA006DDE04 /* MKMapViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewExtensions.swift; sourceTree = "<group>"; };
+		27F1F3972241A69300CA3D36 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +131,12 @@
 		279D233E1FF9B2E9004D4E5A /* FSP_Notes */ = {
 			isa = PBXGroup;
 			children = (
-				279D233F1FF9B2E9004D4E5A /* AppDelegate.swift */,
-				279D23411FF9B2E9004D4E5A /* ViewController.swift */,
-				279D23431FF9B2E9004D4E5A /* Main.storyboard */,
-				279D23461FF9B2F0004D4E5A /* Assets.xcassets */,
-				279D23481FF9B2F0004D4E5A /* LaunchScreen.storyboard */,
 				279D234B1FF9B2F0004D4E5A /* Info.plist */,
+				27EE1FB2224849BE002F0B11 /* APP */,
+				27EE1FB422484A20002F0B11 /* Controllers */,
+				27E549B1223EF39C00772FD2 /* Domain */,
+				27EE1FAD2247EFF0002F0B11 /* Extensions */,
+				27EE1FB3224849DC002F0B11 /* Storyboards */,
 			);
 			path = FSP_Notes;
 			sourceTree = "<group>";
@@ -123,6 +157,63 @@
 				279D23611FF9B2F1004D4E5A /* Info.plist */,
 			);
 			path = FSP_NotesUITests;
+			sourceTree = "<group>";
+		};
+		27E549B1223EF39C00772FD2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				27EE1FB9224883CF002F0B11 /* Category.swift */,
+				27EE1FBB224886FF002F0B11 /* CategoriesRepository.swift */,
+				27E549B2223EF3FF00772FD2 /* Note.swift */,
+				27D5C31222404E3E0066F9E4 /* NotesRepository.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		27EE1FAD2247EFF0002F0B11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27F1F3972241A69300CA3D36 /* DateExtensions.swift */,
+				27EE1FAE2247F00F002F0B11 /* NSAttributedStringExtensions.swift */,
+				27EE1FB02247F7F9002F0B11 /* StringExtensions.swift */,
+				27ED86A72246A982009CEA0B /* UIImageExtensions.swift */,
+				27EF1DB622474D3B00694CBC /* UITextViewExtensions.swift */,
+				27EF6DAB2249D6CA006DDE04 /* MKMapViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27EE1FB2224849BE002F0B11 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				27E549B8223F1D0D00772FD2 /* APP.swift */,
+				279D233F1FF9B2E9004D4E5A /* AppDelegate.swift */,
+				27E549B6223F08BA00772FD2 /* Database.swift */,
+				279D23461FF9B2F0004D4E5A /* Assets.xcassets */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		27EE1FB3224849DC002F0B11 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				279D23481FF9B2F0004D4E5A /* LaunchScreen.storyboard */,
+				279D23431FF9B2E9004D4E5A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		27EE1FB422484A20002F0B11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27ED404622446F1600EE9F97 /* EditNoteInfoViewController.swift */,
+				27E549AF223EEACF00772FD2 /* NewNoteViewController.swift */,
+				279D23411FF9B2E9004D4E5A /* ViewController.swift */,
+				27EE1FB722487EF0002F0B11 /* CategoryViewController.swift */,
+				27EC1F9A22495C8C0042F55F /* EditNoteDetailsViewController.swift */,
+				27EE0182224BFA9100C4250D /* AllCategoriesViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +347,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E549B3223EF3FF00772FD2 /* Note.swift in Sources */,
+				27D5C31322404E3E0066F9E4 /* NotesRepository.swift in Sources */,
+				27EE1FB822487EF0002F0B11 /* CategoryViewController.swift in Sources */,
+				27EF6DAC2249D6CA006DDE04 /* MKMapViewExtensions.swift in Sources */,
+				27E549B9223F1D0D00772FD2 /* APP.swift in Sources */,
+				27F1F3982241A69300CA3D36 /* DateExtensions.swift in Sources */,
+				27E549B0223EEACF00772FD2 /* NewNoteViewController.swift in Sources */,
+				27EE1FAF2247F00F002F0B11 /* NSAttributedStringExtensions.swift in Sources */,
+				27EE1FB12247F7F9002F0B11 /* StringExtensions.swift in Sources */,
+				27ED86A82246A983009CEA0B /* UIImageExtensions.swift in Sources */,
+				27ED404722446F1600EE9F97 /* EditNoteInfoViewController.swift in Sources */,
+				27EC1F9B22495C8C0042F55F /* EditNoteDetailsViewController.swift in Sources */,
+				27EF1DB722474D3B00694CBC /* UITextViewExtensions.swift in Sources */,
+				27EE1FBC224886FF002F0B11 /* CategoriesRepository.swift in Sources */,
+				27EE1FBA224883CF002F0B11 /* Category.swift in Sources */,
 				279D23421FF9B2E9004D4E5A /* ViewController.swift in Sources */,
+				27E549B7223F08BA00772FD2 /* Database.swift in Sources */,
 				279D23401FF9B2E9004D4E5A /* AppDelegate.swift in Sources */,
+				27EE0183224BFA9100C4250D /* AllCategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
